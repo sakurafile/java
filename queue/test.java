@@ -19,7 +19,7 @@ class queue{
     }
     void put(char ch){
         if(qput == qarry.length){
-            System.out.println("The queue is full.");
+            System.out.println("Fuck! The queue is full.");
         }
         qarry[qput++] = ch;
     }
